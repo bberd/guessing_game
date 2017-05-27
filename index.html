@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  </head>
+
+  <body>
+
+      <div id='app' class="center container">
+
+        <div id='headers'>
+          <h1 id="title">The Guessing Game</h1>
+          <h3 id="subtitle">Guess a # between 1 and 100</h3>
+          <button class="btn btn-success" id="replay">Play Again?</button>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <input id="players-input" class="center" type="" name="" placeholder="#" maxlength='3' autofocus=autofocus>
+            <button class="btn btn-success" id="submit">Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <ul id="guess-list">
+              <li class="guessPreGuess">-</li>
+              <li class="guessPreGuess">-</li>
+              <li class="guessPreGuess">-</li>
+              <li class="guessPreGuess">-</li>
+              <li class="guessPreGuess">-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <button class="btn btn-default" id="reset">Reset</button>
+            <button class="btn btn-default" id="hint">Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center'>
+      <div class='row'>
+        <div class='col-sm-4'>
+          <img src='fa-logo@2x.png'></img>
+        </div>
+
+        <div class='col-sm-4'>
+          <h4>Project by Boris Berdichevskiy</h4>
+        </div>
+
+        <div class='col-sm-4'>
+          <img src='grace_hopper_academy.png'></img>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <script
+      src="./ajquery-3.2.1.min.js"
+    </script>
+    <script
+      src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"
+      integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="GuessingGame.js"></script>
+
+  </body>
+</html>

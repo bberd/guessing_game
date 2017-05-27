@@ -1,0 +1,120 @@
+/*body {
+    background-image: url("https://images.unsplash.com/photo-1482160310982-3adf8b38daef");
+}*/
+body {
+    background: #360033; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #360033, #0b8793); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #360033, #0b8793); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#title {
+  margin: 0.2em 0;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 3.5em;
+  color: #FFD9AA;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-shadow: 
+  -0.03em 0 0 #4A9470,  
+  0.03em 0 0 #4A9470, 
+  -0.06em 0 0 #032236, 
+  0.06em 0 0 #032236;
+}
+
+
+#subtitle {
+  margin: 0.2em 0;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 2.5em;
+  color: #FFD9AA;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-shadow: -0.04em 0 0 #032236;
+}
+
+#replay:hover {
+    text-decoration: none;
+}    
+
+.center {
+    text-align: center; /*center text only*/
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.guessPreGuess {
+    font-size: 50px;
+    color: rgb(212, 165, 106);
+    display: inline;
+    border: 3px ridge #486F88;
+    padding: 0 20px;
+    border-radius: 20%;
+    background-color: rgba(84, 89, 148, .85);
+}
+
+.guess {
+    font-size: 50px;
+    color: rgb(84, 89, 148);
+    display: inline;
+    border: 3px ridge #486F88;
+    padding: 0 20px;
+    border-radius: 20%;
+    background-color: rgba(212, 165, 106, .85);
+
+}
+
+img {
+    display: inline; /*same row*/
+    width: 200px;
+    height: 70px;
+}
+
+#footer {
+    height: 70px;
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed; 
+    bottom: 0; /*position fixed at bottom*/
+}
+
+#input-parent {
+    position: relative;
+    width: 160px;
+    margin: 5% auto 50px;
+}
+
+#players-input {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    font-size: 60px;
+    /*display: inline;*/
+    background-color: white;
+    color: rgb(51, 54, 118);
+    outline:none;
+}
+
+#submit {
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 54, 118);
+}
+
+#reset, #hint, #replay {
+    background-color: #032236;
+    color: rgb(212, 165, 106);
+    outline:none;
+}
+
+#replay {
+    display: none;
+}
